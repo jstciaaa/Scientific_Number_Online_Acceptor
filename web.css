@@ -1,0 +1,55 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 500px;
+    margin: 170px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #a8d2eb;
+    text-align: center;
+}
+
+.userInfo {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    font-style : italic;
+    font-weight: bold;
+}
+
+.userInfo p {
+    margin-top: 5px; /* Menyesuaikan jarak atas antara setiap paragraf (nama dan program studi) */
+    margin-bottom: 5px; /* Menyesuaikan jarak bawah antara setiap paragraf (nama dan program studi) */
+}
+
+input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #041d38;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
